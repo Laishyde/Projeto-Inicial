@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root{
+    --color-first:#a06d91;
+    --color-second:#2e0c79;
+    --color-third:#744269;
+    --color-fourth:#b41692;
+}
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.6rem;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color:var(--color-fourth) ;
+    transition: .5s;
+}
+a:hover{
+    color: var(--color-second);
+}
